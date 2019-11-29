@@ -9,7 +9,9 @@ h1 {font-weight: bold;
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
-
+div{
+	line-height: 130%;
+}
 /* nav*/
 .nav{
 	float: left;
@@ -146,6 +148,9 @@ img {
 	#img-fair{float: left;width: 150px;}
 	#img-dog{float: right;}
 	#img-warm{float: right;width: 300px;}
+	#img-fab1{float: left;width: 350px;}
+	#img-fab2{float: left;width: 220px;}
+
 
 }
 
