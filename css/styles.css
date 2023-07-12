@@ -28,29 +28,64 @@ div{
 
 .navlink:link,.navlink:active,.navlink:hover,.navlink:focus,.navlink:visited{
   text-decoration: none;
+    color: green;
 }
 
 .navlink:hover {
   color: #E7E7E7;
 }
 
-
 /* countainer*/
 .container {
 	clear: both;
-	padding-top: 90px;
+	padding-top: 70px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 600px;
 }
 
-#homepic {
+#homepic_container {
     text-align: center;
-    margin-top:30px;
-    margin-bottom:100px;
+    margin-top:0px;
+    margin-bottom:30px;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 240px;
+}
+
+#homepic {
+    width: 240px;
+    position: relative;
+    display: inline-block;
+}
+#homepic #img-back {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 98;
+}
+#homepic:hover #img-back {
+    display: inline;
+}
+
+#img-back {
+  border-radius: 50%;
+}
+
+#acover{
+  width: 35px;
+  height: 20px;
+  background: white;
+  z-index: 99;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 168px;
+}
+
+
+#img-front {
+  border-radius: 50%;
 }
 
 .intro {
@@ -80,7 +115,7 @@ img {
 }
 
 .studyref{
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	font-size: 80%;
 }
 
@@ -113,7 +148,7 @@ img {
 /* personal*/
 .personal{
 	font-size: 140%;
-	color: green;
+	color: orange;
 	font-weight: bold;
 	margin-bottom: 20px;
 	margin-top: 20px;
@@ -151,7 +186,11 @@ img {
 	#img-fab1{float: left;width: 350px;}
 	#img-fab2{float: left;width: 220px;}
 	#img-crt{float: right;}
-	#img-diamond{float: left;}
+	#img-diamond{float: left;width: 250px;}
+	#img-active{float: right;width: 230px;}
+	#img-future{float: left;width: 300px;}
+	#img-neglect{margin-left:auto ;margin-right:auto ;width: 500px;}
+	#img-ouprocess{float: right;width: 300px;}
 }
 
 
