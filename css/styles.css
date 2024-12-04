@@ -189,6 +189,8 @@ img {
 	#img-diamond{float: left;width: 250px;}
 	#img-active{float: right;width: 230px;}
 	#img-future{float: left;width: 300px;}
+
+	#img-rational{margin-left:auto ;margin-right:auto ;width: 450px;}
 	#img-neglect{margin-left:auto ;margin-right:auto ;width: 500px;}
 	#img-ouprocess{float: right;width: 300px;}
 }
